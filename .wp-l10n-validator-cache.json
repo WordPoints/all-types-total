@@ -1,0 +1,25 @@
+{
+    "files": {
+        "\/all-types-total.php": {
+            "size": 1885,
+            "hash": "bcd4a212fb1826874c0f2797b1087c4d",
+            "errors": false
+        },
+        "\/classes\/index.php": {
+            "size": 237,
+            "hash": "799149bd462cb88314b7768c0e0c8565",
+            "errors": false
+        },
+        "\/classes\/shortcode.php": {
+            "size": 521,
+            "hash": "bcaa3e3f5fbbf001382867c91bea7d8d",
+            "errors": false
+        },
+        "\/includes\/functions.php": {
+            "size": 616,
+            "hash": "aad2cbe5433192578059a9565ab4e1f5",
+            "errors": false
+        }
+    },
+    "config_signature": "c413d299d498ffd6b78c8b027429eb4b"
+}
