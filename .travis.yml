@@ -60,7 +60,7 @@ before_script:
 
 script:
     - codesniff-php-syntax
-    - codesniff-php-autoloaders
+    - if [[ $WORDPOINTS_VERSION != stable ]]; then codesniff-php-autoloaders; fi
     - codesniff-phpcs
     - codesniff-strings
     - codesniff-jshint
