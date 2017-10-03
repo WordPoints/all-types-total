@@ -26,20 +26,20 @@
  * @license GPLv2+
  */
 
-WordPoints_Modules::register(
+wordpoints_register_extension(
 	'
-		Module Name: All Types Total
-		Author:      J.D. Grimes
-		Author URI:  https://codesymphony.co/
-		Module URI:  https://wordpoints.org/modules/all-types-total/
-		Version:     1.0.0
-		License:     GPLv2+
-		Description: Display the total of all points for a user using a shortcode [wordpoints_all_types_total].
-		Text Domain: wordpoints-all-types-total
-		Domain Path: /languages
-		Channel:     wordpoints.org
-		ID:          934
-		Namespace:   All_Types_Total
+		Extension Name: All Types Total
+		Author:         J.D. Grimes
+		Author URI:     https://codesymphony.co/
+		Extension URI:  https://wordpoints.org/modules/all-types-total/
+		Version:        1.0.0
+		License:        GPLv2+
+		Description:    Display the total of all points for a user using a shortcode [wordpoints_all_types_total].
+		Text Domain:    wordpoints-all-types-total
+		Domain Path:    /languages
+		Server:         wordpoints.org
+		ID:             934
+		Namespace:      All_Types_Total
 	'
 	, __FILE__
 );
